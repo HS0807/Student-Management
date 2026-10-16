@@ -68,7 +68,6 @@ export default function StudentCard({ students }) {
                             <td className="text-center">
                                 <button onClick={() => {
                                     deleteHandler(student.id)
-                                    alert(`${student.name} is removed`);
                                 }}
                                     className="rounded-lg border border-gray-200 p-3 text-red-500 hover:bg-red-50">
                                     <FaTrash />
